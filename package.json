@@ -1,7 +1,7 @@
 {
     "name": "@discoveryjs/node-modules",
-    "version": "0.0.0",
-    "description": "An utility for scan and analyze entries in `node_modules`. It uses file system scan to determine which physical instances of packages are installed in `node_modules`.",
+    "version": "1.0.0",
+    "description": "An utility for scan and analyze packages in `node_modules`. It uses file system scan to determine which package physical instances are exactly installed in `node_modules`.",
     "keywords": [
         "scan",
         "node_modules"

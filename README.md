@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/@discoveryjs/node-modules.svg)](https://www.npmjs.com/package/@discoveryjs/node-modules)
 [![Twitter](https://img.shields.io/badge/Twitter-@js_discovery-blue.svg)](https://twitter.com/js_discovery)
 
-An utility for scan and analyze entries in `node_modules`. It uses file system scan to determine which physical instances of packages are installed in `node_modules`.
+An utility for scan and analyze packages in `node_modules`. It uses file system scan to determine which package physical instances are exactly installed in `node_modules`.
 
 Is a part of [Discovery.js](https://github.com/discoveryjs) projects.
 
