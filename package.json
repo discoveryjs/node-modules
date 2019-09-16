@@ -2,20 +2,14 @@
     "name": "@discoveryjs/node-modules",
     "version": "1.0.0",
     "description": "An utility for scan and analyze packages in `node_modules`. It uses file system scan to determine which package physical instances are exactly installed in `node_modules`.",
-    "keywords": [
-        "scan",
-        "node_modules"
-    ],
     "author": "Roman Dvornov <rdvornov@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/discoveryjs/node-modules#readme",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/discoveryjs/node-modules.git"
-    },
-    "bugs": {
-        "url": "https://github.com/discoveryjs/node-modules/issues"
-    },
+    "repository": "discoveryjs/node-modules",
+    "keywords": [
+        "scan",
+        "scan-fs",
+        "node_modules"
+    ],
     "main": "lib/index.js",
     "scripts": {
         "lint": "eslint index.js"
