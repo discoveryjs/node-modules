@@ -63,7 +63,7 @@ Analyzer to use with [@discoveryjs/scan-fs](https://github.com/discoveryjs/scan-
 
 ```js
 const scanFs = require('@discoveryjs/scan-fs');
-const nodeModules = require('@discovery/node-modules');
+const nodeModules = require('@discoveryjs/node-modules');
 
 scanFs({
     ...
@@ -80,7 +80,7 @@ scanFs({
 ## Examples
 
 ```js
-const fetchNodeModules = require('@discovery/node-modules');
+const fetchNodeModules = require('@discoveryjs/node-modules');
 
 fetchNodeModules(__dirname).then(modules => {
     const groupByName = modules.reduce(
@@ -105,7 +105,7 @@ fetchNodeModules(__dirname).then(modules => {
 The same example but using [jora](https://github.com/discoveryjs/jora):
 
 ```js
-const fetchNodeModules = require('@discovery/node-modules');
+const fetchNodeModules = require('@discoveryjs/node-modules');
 const jora = require('jora');
 
 fetchNodeModules(__dirname).then(modules => {
